@@ -1,0 +1,122 @@
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.categories {
+  border-radius: 8px;
+  padding: 24px;
+  width: 440px;
+  height: 888px;
+  background: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 133%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+.item {
+  border-radius: 8px;
+  padding: 16px;
+  width: 100%;
+  height: 100%;
+  background: #f6f6fe;
+  border-radius: 8px;
+  padding: 16px;
+  width: 392px;
+  height: 100%;
+}
+li {
+  width: 360px;
+  height: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: 24px;
+  padding-top: 100px;
+  padding-left: 156px;
+}
+.gallery > li {
+  height: 300px;
+  width: 360px;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.login-form {
+  display: block;
+  border-radius: 8px;
+  padding: 24px;
+  width: 408px;
+  height: 256px;
+  background: #fff;
+  box-sizing: border-box;
+}
+input {
+  border: 1px solid;
+  width: 360px;
+  height: 40px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  border-color: #808080;
+  box-sizing: border-box;
+}
+button {
+  background-color: #4e75ff;
+  width: 86px;
+  height: 40px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 0;
+  color: #ffffff;
+  font-size: 16px;
+  margin-top: 16px;
+}
+label {
+  font-family: "Montserrat", sans-serif;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+.widget {
+  border-radius: 8px;
+  padding: 100px 88px;
+  max-width: 345px;
+  height: 280px;
+}
+.change-color {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 148px;
+  height: 40px;
+  background: #4e75ff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+.change-color:hover {
+  background: #6c8cff;
+  cursor: pointer;
+}
